@@ -61,7 +61,7 @@ class Ejercicio extends Model
     }
 
     //metodo para dar de alta una pelicula a través del array de datos que llegue en el parametro de entrada
-    public function alta($datos){
+    public static function alta($datos){
         return Ejercicio::create([
         'nombre'=>$datos['nombre'],
         'idcategoria'=>$datos['idcategoria'],
