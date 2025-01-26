@@ -71,5 +71,6 @@ class Ejercicio extends Model
         'video'=>$datos['video'],
         ]);
     }
-
+   
 }
+
